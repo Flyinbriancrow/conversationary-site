@@ -1,20 +1,13 @@
 # Conversationary website
 
-These static files provide the public marketing, support, and privacy-policy URLs needed for the App Store listing. They require no database, account system, or paid hosting.
+These are the public marketing, support, and privacy-policy pages for Conversationary. The site is hosted free through GitHub Pages and requires no database or account system.
 
-## Preview locally
+## Public URLs
 
-Open `index.html` in a browser. The privacy and support links use relative paths and work without a web server.
+- Marketing: https://flyinbriancrow.github.io/conversationary-site/
+- Support: https://flyinbriancrow.github.io/conversationary-site/support.html
+- Privacy Policy: https://flyinbriancrow.github.io/conversationary-site/privacy.html
 
-## Publish for free with GitHub Pages
+## Updating the site
 
-1. Put this repository in a private or public GitHub repository.
-2. In GitHub, open **Settings → Pages**.
-3. Choose the branch containing these files and the `/Website` folder if that option is available. If GitHub only permits `/` or `/docs`, rename `Website` to `docs` before publishing.
-4. Save and wait for the public URL.
-5. Enter the resulting URLs in App Store Connect:
-   - Privacy Policy URL: `https://YOUR-DOMAIN/privacy.html`
-   - Support URL: `https://YOUR-DOMAIN/support.html`
-   - Marketing URL (optional): `https://YOUR-DOMAIN/`
-
-Before publishing, replace `YOUR-DOMAIN` with the actual generated address and test every link in a private browser window.
+Edit the files in this folder, commit the changes to the `main` branch, and push them to GitHub. GitHub Pages automatically republishes the site. Always test the links in a private browser window after an update.
